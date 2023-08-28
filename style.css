@@ -65,3 +65,31 @@ header{
 .banner-content{
     max-width: 500px;
 }
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+.section-title{
+    font-size:35px ;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #757575;
+}
+main{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+   text-align: center
+   ;
+}
