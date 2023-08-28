@@ -39,13 +39,29 @@ nav a{
     font-weight:700px ;
     font-size: 20px;
 }
+.btn-primary-2{
+    background-color: #fff8f3;
+    padding: 5px;
+    border: 1px solid wheat;
+    color: #FD6E0A;
+    font-weight:700px ;
+    font-size: 20px;
+}
+
 header{
     background-color: #fff8f3;
+    background-image:  url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
 }
 .banner{
-    padding: 30px 30px 30px 200px;
+    padding: 0px 130px 0px 200px;
     display: flex;
     align-items: center;
-        
-    
+    justify-content: space-between;
+          
+}
+.banner-content{
+    max-width: 500px;
 }
