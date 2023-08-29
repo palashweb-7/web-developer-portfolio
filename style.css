@@ -47,13 +47,15 @@ nav a{
     font-weight:700px ;
     font-size: 20px;
 }
-
+.banner-title{
+    font-size: 48px;
+}
 header{
     background-color: #fff8f3;
-    background-image:  url(header_bg.png);
+    background-image:  url(header_bg.png), url('media/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 600px;
+    background-position: bottom right, top left;
+    background-size: 600px, 60px;
 }
 .banner{
     padding: 0px 130px 0px 200px;
