@@ -145,4 +145,21 @@ footer{
     display: flex;
     background-color: #fff8f3;
     padding: 130px 200px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contuct input[type="text"], .contuct input[type=email], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+
+}
+.social-link a{
+    margin-right: 25px;
 }
